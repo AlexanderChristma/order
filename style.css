@@ -978,7 +978,79 @@ text-align: center;
 
 
 
+@media (max-width:456px) {
+    #hero button {
+      
+        width: 30%;
+    }
+    #feature .fe-box {
+        
+        margin: 4px 4px;
+    }
+    #feature {
+        justify-content: center;
+     
+    }
+    .section-p1 {
+        padding: 10px 10px;
+    }
+    #product h2 {
+    font-weight: 700;
+    justify-content: center;
+    font-size: 40px;
+    display: flex;
+}
 
+#product .pro {
+    min-width: 165px;
+    
+}
+#blog .blog-box {
+   
+    width: 106%;
+    padding-bottom: 90px;
+}
+#blog {
+    padding: 30px 30px 0 30px;
+}
+#about-head {
+    flex-direction: column;
+}
+  /* contact */
+
+  #contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact-details .details {
+    width: 100%;
+}
+#form-details {
+   
+    margin: 10px;
+    padding: 50px;
+}
+#form-details {
+    margin: 10px;
+    padding: 30px 10px;
+    flex-wrap: wrap;
+}
+#form-details form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#cart table {
+    width: 10%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+}
 
 
 
